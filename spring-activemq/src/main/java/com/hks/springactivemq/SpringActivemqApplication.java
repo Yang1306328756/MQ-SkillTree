@@ -1,12 +1,12 @@
-package com.hks.springactivitymq;
+package com.hks.springactivemq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringActivitymqApplication {
+public class SpringActivemqApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringActivitymqApplication.class, args);
+		SpringApplication.run(SpringActivemqApplication.class, args);
 	}
 }

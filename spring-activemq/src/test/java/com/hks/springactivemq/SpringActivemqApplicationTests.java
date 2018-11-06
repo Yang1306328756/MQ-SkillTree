@@ -1,6 +1,6 @@
-package com.hks.springactivitymq;
+package com.hks.springactivemq;
 
-import com.hks.springactivitymq.activityMQ.Producer;
+import com.hks.springactivemq.activityMQ.Producer;
 import org.apache.activemq.command.ActiveMQQueue;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -12,7 +12,7 @@ import javax.jms.Destination;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class SpringActivitymqApplicationTests {
+public class SpringActivemqApplicationTests {
 
 	@Autowired
 	private Producer producer;
@@ -22,7 +22,7 @@ public class SpringActivitymqApplicationTests {
 		Destination destination = new ActiveMQQueue("mytest.queue");
 
 		for(int i=0; i<100; i++){
-			producer.sendMessage(destination, "阿里巴巴!!!");
+			producer.sendMessage(destination, "singgel!!!");
 		}
 	}
 }

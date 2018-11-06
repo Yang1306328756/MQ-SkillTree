@@ -1,4 +1,4 @@
-package com.hks.springactivitymq.activityMQ;
+package com.hks.springactivemq.activityMQ;
 
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
